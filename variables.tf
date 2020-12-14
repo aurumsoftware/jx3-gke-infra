@@ -27,6 +27,12 @@ variable "resource_labels" {
   default     = {}
 }
 
+variable "jenkins_x_namespace" {
+  description = "Jenkins-x namespace"
+  type        = string
+  default     = "jx"
+}
+
 // ----------------------------------------------------------------------------
 // cluster configuration
 // ----------------------------------------------------------------------------
